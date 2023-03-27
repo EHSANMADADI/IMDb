@@ -12,4 +12,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  //i add dis line for dark mod
+  darkMode:'class'
 }

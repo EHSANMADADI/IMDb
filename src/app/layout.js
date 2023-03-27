@@ -1,5 +1,6 @@
 import { Heder } from '@/componenet/Heder'
 import './globals.css'
+import Providers from './Providers'
 
 export const metadata = {
   title: 'create IMDb project',
@@ -10,8 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Providers>
         <Heder/>
         {children}
+        </Providers>
         </body>
     </html>
   )
