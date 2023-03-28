@@ -1,4 +1,5 @@
 import { Heder } from '@/componenet/Heder'
+import Navbar from '@/componenet/Navbar'
 import './globals.css'
 import Providers from './Providers'
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Providers>
         <Heder/>
+        <Navbar/>
         {children}
         </Providers>
         </body>

@@ -6,7 +6,7 @@ import  DarkMood  from './DarkMood'
 import { MenuItem } from './MenuItem'
 export const Heder = () => {
      return (
-          <div className='flex justify-between mx-auto max-w-6xl  items-center'>
+          <div className='flex justify-between mx-auto max-w-6xl  items-center my-6'>
                <div className='flex'>
                     <MenuItem title="Home" addres='/' Icon={AiFillHome} />
                     <MenuItem title="About" addres='/about' Icon={FcAbout} />
