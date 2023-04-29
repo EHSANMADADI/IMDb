@@ -2,6 +2,7 @@ import { Heder } from '@/componenet/Heder'
 import Navbar from '@/componenet/Navbar'
 import './globals.css'
 import Providers from './Providers'
+import SerchBox from '@/componenet/SerchBox'
 
 export const metadata = {
   title: 'create IMDb project',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Providers>
         <Heder/>
+        <SerchBox/>
         <Navbar/>
         {children}
         </Providers>
