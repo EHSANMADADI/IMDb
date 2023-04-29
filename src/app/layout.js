@@ -14,9 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Providers>
         <Heder/>
-
         <Navbar/>
-        
         {children}
         </Providers>
         </body>

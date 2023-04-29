@@ -3,6 +3,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 export default function Error({error,reset}) {
+
      useEffect((error)=>{console.log(error)},[error])
   return (
     <div className=' mx-auto border max-w-md p-5 text-center mt-12 space-y-5'>
